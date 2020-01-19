@@ -46,16 +46,8 @@
   color:#8492A6;
 }
 
-.pri-color {
+.span-link {
   color: $primary-color;
-}
-
-.font-bold {
-  font-weight: bold;
-}
-
-.text-upper {
-  text-transform: uppercase;
 }
 
 .center-content {
@@ -92,4 +84,16 @@
   &--gray {
     background-color: #DEE2E6;
   }
+}
+
+.content-title {
+  max-width: 80%;
+  padding-bottom: 20px;
+  margin:auto;
+}
+
+.content-paragraph {
+  max-width: 47.5%;
+  margin:auto;
+  padding-bottom: 20px;
 }

@@ -1,3 +1,38 @@
 .check-icon {
     color:#2ECA8B;
 }
+
+.star {
+    font-size: 1em;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #F17425;
+
+    &:before {
+        content: "\f005";
+    }
+
+    &--2x {
+        &:before {
+            content: "\f005 \f005";
+        }
+    }
+
+    &--3x {
+        &:before {
+            content: "\f005 \f005 \f005";
+        }
+    }
+
+    &--4x {
+        &:before {
+            content: "\f005 \f005 \f005 \f005";
+        }
+    }
+
+    &--5x {
+        &:before {
+            content: "\f005 \f005 \f005 \f005 \f005";
+        }
+    }
+}
